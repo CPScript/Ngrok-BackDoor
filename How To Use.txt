@@ -1,2 +1,13 @@
-This tool can be ran using a online sandbox like Github Codespace, or Virtual Studio code...
-To run this tool type "bash install.sh" into your Linux or sandbox terminal...
+|=Info=|\
+| This tool can be ran using a linux OS, or a online sandbox like Github Codespace, and Virtual Studio code...
+|======|/
+
+| How To Use | 
+=======================================\
+To run this tool you must gain access to the root of the terminal... you can run the code below to do so:
+"sudo su"
+
+Once done, you must type the code below to fully run the tool...
+
+"bash install.sh"
+========================================/
