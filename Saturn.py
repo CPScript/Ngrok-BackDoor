@@ -32,7 +32,7 @@ def banner():
     [\033[1;39m4\033[1;36m] Exit (Stop this software)    
 """)
     
-    options = input( "\033[1;39mSelect Option : \033[1;39m")
+    options = input( "\033[1;39m-->  \033[1;39m")
     
 
 #linux		
