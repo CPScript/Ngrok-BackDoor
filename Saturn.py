@@ -26,10 +26,10 @@ def main():
 def banner():
     
     print ("""
-  \033[1;36m  [\033[1;39m1\033[1;36m] Linux  
-    [\033[1;39m2\033[1;36m] Windows 
-    [\033[1;39m3\033[1;36m] Listen
-    [\033[1;39m4\033[1;36m] Exit     
+  \033[1;36m  [\033[1;39m1\033[1;36m] Linux (Recemended)
+    [\033[1;39m2\033[1;36m] Windows (Harder to use)
+    [\033[1;39m3\033[1;36m] Listen (Connect to a port)
+    [\033[1;39m4\033[1;36m] Exit (Stop this software)    
 """)
     
     options = input( "\033[1;39mSelect Option : \033[1;39m")
