@@ -11,7 +11,21 @@ import re
 
 def main():
 
-    print ("""
+    print ("""                                         _.oo.
+                 _.u[[/;:,.         .odMMMMMM'
+              .o888UU[[[/;:-.  .o@P^    MMM^
+             oN88888UU[[[/;::-.        dP^
+            dNMMNN888UU[[[/;:--.   .o@P^
+           ,MMMMMMN888UU[[/;::-. o@^
+           NNMMMNN888UU[[[/~.o@P^
+           888888888UU[[[/o@^-..
+          oI8888UU[[[/o@P^:--..
+       .@^  YUU[[[/o@^;::---..
+     oMP     ^/o@P^;:::---..
+  .dMMM    .o@^ ^;::---...
+ dMMMMMMM@^`       `^^^^
+YMMMUP^
+ ^^
 \033[1;36m
 ███████╗ █████╗ ████████╗██╗   ██╗██████╗ ███╗   ██╗
 ██╔════╝██╔══██╗╚══██╔══╝██║   ██║██╔══██╗████╗  ██║
@@ -32,7 +46,7 @@ def banner():
     [\033[1;39m4\033[1;36m] Exit (Stop this software)    
 """)
     
-    options = input( "\033[1;39m-->  \033[1;39m")
+    options = input( "\033[1;39m[Option]-->\033[1;39m")
     
 
 #linux		
